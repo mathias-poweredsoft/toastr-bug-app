@@ -12,6 +12,8 @@ export class AppComponent {
   }
 
   toast() {
-    this.toastr.success('hello world', 'test');
+    this.toastr.success('hello world', 'test', {
+      disableTimeOut: true
+    });
   }
 }
