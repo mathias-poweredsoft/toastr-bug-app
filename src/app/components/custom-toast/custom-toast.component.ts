@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { Toast } from 'ngx-toastr';
 
 @Component({
-  selector: 'app-custom-toast',
+  selector: '[app-custom-toast]',
   templateUrl: './custom-toast.component.html',
   styleUrls: ['./custom-toast.component.scss'],
   animations: [
